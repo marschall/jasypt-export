@@ -110,8 +110,9 @@
         <artifactId>maven-war-plugin</artifactId>
         <configuration>
           <archive>
-            <manifest>
-            </manifest>
+            <manifestEntries>
+              <Dependencies>org.jboss.ws.cxf.jbossws-cxf-client</Dependencies>
+            </manifestEntries>
           </archive>
         </configuration>
       </plugin>
